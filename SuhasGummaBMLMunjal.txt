@@ -1,0 +1,85 @@
+
+Brief Research:
+
+File System is a process to see where and how tha data is stored in the HDD.
+
+
+Test Case 1:
+
+Make sure that the user could not touch the Kernel Programs and UNAUTHOURISED Files.
+
+Test Set: When Multiple physical units are present
+
+Test Case 2: Make Sure that the alloted space and used space are correct.
+
+
+
+Test set : Maintaining Space and disk partitioning.
+
+Test Case 3: make Sure That the Fragmentation is done correctly.
+
+Test Case 4: Remaining free Space is calculated correctly in each partition.
+
+When asked to partition...
+
+Test Case 5: Check if there is enough space to make another partition of required size.
+
+Test Case 6: If yes, make the partition and check the total space before partition and after partition is same.
+
+Test Case 7: FINALLY, check individual sizes of partition.
+
+
+
+Test Set: File names
+
+Test Case 8: Two files with the same name should not be present in the same directory. Define what "same" means.
+
+Test Set: Checking Heirarchial Structure of the directories.
+
+Test Case 9: make sure that the Heirarchial tree is formed correctly when creating new directories inside the directory.
+
+
+
+Test Set: Reading Files
+
+Test Case: Make sure that we are Reading from the currect directory and the currect file.
+
+Test Set: Writing Files.
+
+Test Case 11: MAke sure that the same file is not being updated in Multiple instances at the same time.
+
+Test Case 12 : Maintaining Integrity: If the write operation is terminated in the middle, 
+            EITHER save changes until termination... 
+            OR Dont change the pre existing File.
+
+Test Set: Maintainance of Meta data
+
+Test case 13: If some instance of the file(like location, size, Name , extension , etc) is changed, make sure that the meta data is also updated.
+
+Test Set : Restriction of access.
+
+** When Read only**
+Test Case 14: Make Sure Giving access when Read.
+Test Case 15: MAke sure not Giving access when updating.
+
+
+Test Case 16: if password is set, it should prompt "enter password" and access is given only when password is right.
+
+***Correctness IS DOne******
+
+
+Performance testing..
+
+Test Case 17: Efficiency of search.
+
+Test Case 18: Speed of read, write and retrieve.
+
+
+Load Test:
+
+Check when reading and writing large files.
+
+
+
+
+
